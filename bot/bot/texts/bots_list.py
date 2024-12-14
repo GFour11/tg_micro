@@ -1,0 +1,20 @@
+# Mock data for demonstration
+MOCK_BOTS = [
+    {"id": "bot_1", "name": "Trading Bot 1", "type": "Real", "status": "Active"},
+    {"id": "bot_2", "name": "Virtual Trader", "type": "Virtual", "status": "Active"},
+    {"id": "bot_3", "name": "BTC Backtester", "type": "Backtesting", "status": "Completed"},
+    {"id": "bot_4", "name": "ETH Scanner", "type": "Real", "status": "Paused"},
+    {"id": "bot_5", "name": "Volume Bot", "type": "Virtual", "status": "Active"},
+    {"id": "bot_6", "name": "Retracement Bot", "type": "Real", "status": "Active"},
+    {"id": "bot_7", "name": "Bounce Strategy", "type": "Backtesting", "status": "Active"},
+    {"id": "bot_8", "name": "Signal Bot", "type": "Virtual", "status": "Paused"},
+    {"id": "bot_9", "name": "Trend Follower", "type": "Real", "status": "Active"},
+    {"id": "bot_10", "name": "Test Bot", "type": "Backtesting", "status": "Completed"},
+    {"id": "bot_11", "name": "Demo Bot", "type": "Virtual", "status": "Active"},
+    {"id": "bot_12", "name": "Example Bot", "type": "Real", "status": "Paused"},
+    {"id": "bot_13", "name": "Sample Bot", "type": "Backtesting", "status": "Active"},
+    {"id": "bot_14", "name": "Trial Bot", "type": "Virtual", "status": "Paused"},
+    {"id": "bot_15", "name": "New Bot", "type": "Real", "status": "Active"},
+    {"id": "bot_16", "name": "Trading Bot 2", "type": "Real", "status": "Active"},
+    {"id": "bot_17", "name": "Virtual Trader 2", "type": "Virtual", "status": "Active"},
+]
