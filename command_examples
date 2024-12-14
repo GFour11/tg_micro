@@ -1,0 +1,30 @@
+Створення користувача
+("get_or_create", {"user_id": <використовується ботом і записується telegram id>, "user_data": {"username": "qualle", "last_name": "tsytskyi", "first_name": "kita"}}
+
+Оновлення користувача
+("update_user_internal", {"user_id": 1, "user_data": {"username": "Test", "last_name": "Test", "first_name": "Test"}})
+
+Видалення користувача
+("delete_user_internal", {"user_id": 1})
+
+Отримати інформацію за користувачем
+("get_user_info_internal", {"user_id": 1})
+
+Отримати всії користувачів
+("get_all_users", "")
+
+Додати ключ
+("add_key_internal", {"user_id": 1, "key_data": {"key": "binance_key_d27d0b9b", "secret": "gAAAAABm99o_ChV275NwqADqd83TH8T"}})
+
+Отримати ключі користувача
+("list_keys_internal", {"user_id": 1}})
+
+Видалити ключ
+("delete_key", {"user_id": 1, "key_id": 3})
+
+Отримати дешифрований ключ
+("get_key_internal", {"user_id": 1, "key_id": 4})
+
+Оновити ключ
+("update_key", {"key_id": 4, "value": "rgjegje245252"})
+
